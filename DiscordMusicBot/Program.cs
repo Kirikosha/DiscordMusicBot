@@ -48,14 +48,14 @@ namespace DiscordMusicBot
 
             var endpoint = new ConnectionEndpoint()
             {
-                Hostname = "lava.dcmusic.ca",
+                Hostname = "lavalink.teramont.net",
                 Port = 443,
                 Secured = true
             };
 
             var lavalinkConfig = new LavalinkConfiguration()
             {
-                Password = "youshallnotpass",
+                Password = "eHKuFcz67k4lBS64",
                 RestEndpoint = endpoint,
                 SocketEndpoint = endpoint,
             };
